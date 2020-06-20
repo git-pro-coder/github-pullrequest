@@ -7,6 +7,6 @@ def sinplot(flip = 1):
 
 import seaborn as sb
 sb.set_style("white")
-sb.set_palette("husl")
+sb.set_palette("BrBG", 4)
 sinplot()
 plt.show()
