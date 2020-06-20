@@ -7,4 +7,5 @@ def sinplot(flip=1):
 import seaborn as sb
 sb.set_style("darkgrid")
 sinplot()
+sb.despine()
 plt.show()
