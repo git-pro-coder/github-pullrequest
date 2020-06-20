@@ -5,6 +5,6 @@ def sinplot(flip=1):
    for i in range(1, 5):
       plt.plot(x, np.sin(x + i * .5) * (7 - i) * flip)
 import seaborn as sb
-sb.set_style("whitegrid")
+sb.set_style("darkgrid")
 sinplot()
 plt.show()
